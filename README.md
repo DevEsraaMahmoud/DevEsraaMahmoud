@@ -32,14 +32,6 @@
 - [EcommApp](https://github.com/DevEsraaMahmoud/EcommApp)  
 - [Content Management APIs](https://github.com/DevEsraaMahmoud/laravel-content-management-APIs)
 
----
-
-## 📊 **GitHub Stats**
-
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=DevEsraaMahmoud&show_icons=true&theme=radical)
-
----
-
 ## 💬 **Let's Connect**
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue)](https://linkedin.com/in/devesraamahmoud) [![Email](https://img.shields.io/badge/-Email-red)](mailto:devesraamahmoud@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue)](https://linkedin.com/in/esraa-mahmoud) 
