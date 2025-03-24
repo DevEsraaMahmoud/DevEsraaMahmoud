@@ -3,7 +3,7 @@
 </div>
 
 🌍 **From**: Cairo, Egypt  
-💼 **Current Role**: Software Developer at Career 180  
+💼 **Current Role**: Senior Software Developer at Sejel Tech co. 
 🎓 **Education**: 
 - Bachelor's Degree in Actuarial Science, Cairo University  
 - Postgraduate Student in Computer Science
