@@ -1,0 +1,31 @@
+name: "Test: Metrics (Achievements only)"
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate metrics (achievements only)
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+          # أقسام أساسية وخفيفة
+          base: header
+
+          # ----- Achievements -----
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_threshold: C
+          # ممكن تقللي الضوضاء لو حبيتي:
+          # plugin_achievements_secrets: yes
+          # plugin_achievements_ignored: octonaut,maven
+
+          # Debug لوجات أوضح
+          config_display: large
