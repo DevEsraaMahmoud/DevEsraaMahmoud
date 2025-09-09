@@ -21,7 +21,7 @@
 - ![MySQL](https://img.shields.io/badge/-MySQL-orange?style=flat-square&logo=mysql&logoColor=white) Database design, optimization, and management.
 - 
 ### Frontend Development:
-- ![Vue.js](https://img.shields.io/badge/-HTML-orange?style=flat-square&logo=vuejs) Responsive and accessible web design.
+- ![Vue.js](https://img.shields.io/badge/-Vuejs-orange?style=flat-square&logo=vuejs) Responsive and accessible web design.
 - ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat-square&logo=javascript) Dynamic and interactive web components.
 
 ### Testing & Design:
