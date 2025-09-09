@@ -19,16 +19,15 @@
 - ![Livewire](https://img.shields.io/badge/-Livewire-blueviolet?style=flat-square&logo=laravel&logoColor=white) Interactive user interfaces with minimal JavaScript.
 - ![Filament](https://img.shields.io/badge/-Filament-green?style=flat-square) Advanced admin panels and custom dashboards.
 - ![MySQL](https://img.shields.io/badge/-MySQL-orange?style=flat-square&logo=mysql&logoColor=white) Database design, optimization, and management.
+- 
+### Frontend Development:
+- ![Vue.js](https://img.shields.io/badge/-HTML-orange?style=flat-square&logo=vuejs) Responsive and accessible web design.
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat-square&logo=javascript) Dynamic and interactive web components.
 
 ### Testing & Design:
 - ![PHPUnit](https://img.shields.io/badge/-PHPUnit-blue?style=flat-square) Writing unit tests for Laravel applications.
 - ![Pest](https://img.shields.io/badge/-Pest-pink?style=flat-square) A delightful testing framework for PHP.
 - ![DDD](https://img.shields.io/badge/-DDD-purple?style=flat-square) Structuring projects for scalability and maintainability.
-
-### Frontend Development:
-- ![HTML](https://img.shields.io/badge/-HTML-orange?style=flat-square&logo=html5) Responsive and accessible web design.
-- ![CSS](https://img.shields.io/badge/-CSS-blue?style=flat-square&logo=css3) Styling with a focus on responsiveness.
-- ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?style=flat-square&logo=javascript) Dynamic and interactive web components.
 
 ### Tools:
 - ![Git](https://img.shields.io/badge/-Git-red?style=flat-square&logo=git&logoColor=white) Version control and collaboration.
