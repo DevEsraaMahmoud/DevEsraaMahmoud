@@ -36,10 +36,9 @@
 
 ---
 
-## 🏆 Achievements (GitHub Metrics)
-
+## 🏆 GitHub Metrics
 <p align="center">
-  <img src="/github-metrics.svg" alt="GitHub Metrics" width="500"/>
+  <img src="/github-metrics.svg" alt="GitHub Metrics" width="600"/>
 </p>
 
 ---
