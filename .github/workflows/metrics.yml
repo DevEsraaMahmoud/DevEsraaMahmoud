@@ -2,13 +2,13 @@ name: "Generate GitHub Metrics"
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # يحدث كل يوم عند منتصف الليل UTC
-  workflow_dispatch:       # تشغيل يدوي عند الحاجة
+    - cron: "0 0 * * *"     # تحديث يومي (00:00 UTC)
+  workflow_dispatch:         # تشغيل يدوي
   push:
     branches: [ main ]
 
 permissions:
-  contents: write
+  contents: write            # مهم علشان يحفظ الـ SVG
 
 jobs:
   build:
@@ -18,14 +18,14 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics.svg
+          # لو كان بيعمل Rate limit، استخدمي PAT بدل GITHUB_TOKEN:
+          # token: ${{ secrets.METRICS_TOKEN }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
-          # ---------------------------
-          # Core sections
+          # أقسام أساسية مستقرة
           base: header, activity, community, repositories
 
-          # ---------------------------
-          # Plugins (المهمة واللي بتدي شكل غني)
+          # Plugins مهمة لكن آمنة
           plugin_calendar: yes
           plugin_calendar_limit: 1
 
@@ -33,21 +33,22 @@ jobs:
           plugin_languages_sections: most-used, recently-used
           plugin_languages_limit: 8
           plugin_languages_recent_days: 14
+          plugin_languages_analysis_timeout: 15
 
           plugin_achievements: yes
           plugin_achievements_display: detailed
-          plugin_achievements_threshold: C  # يعرض أهم الإنجازات فقط
+          plugin_achievements_threshold: C   # قللي الضوضاء
+
+          plugin_repositories: yes
+          plugin_repositories_affiliations: owner, collaborator
+          # اتأكدي أسماء الريبو صح 100%
+          plugin_repositories_featured: DevEsraaMahmoud/EcommApp,DevEsraaMahmoud/laravel-tenancy,DevEsraaMahmoud/filamentProject
 
           plugin_stars: yes
           plugin_stars_limit: 4
 
           plugin_followup: yes
           plugin_followup_sections: user
-          
-          plugin_repositories: yes
-          plugin_repositories_affiliations: owner, collaborator
-          plugin_repositories_featured: DevEsraaMahmoud/EcommApp,DevEsraaMahmoud/laravel-tenancy,DevEsraaMahmoud/filamentProject
 
           plugin_lines: yes
           plugin_topics: yes
-          plugin_projects: yes
