@@ -43,15 +43,6 @@
 
 ---
 
-## 🏗 Featured Projects
-
-- [**EcommApp**](https://github.com/DevEsraaMahmoud/EcommApp) — Full e-commerce solution (roles, orders, reviews, advanced search).  
-- [**Laravel Tenancy**](https://github.com/DevEsraaMahmoud/laravel-tenancy) — Multi-tenant SaaS platform with isolated environments.  
-- [**Filament Project**](https://github.com/DevEsraaMahmoud/filamentProject) — Exploring advanced Filament admin panel features.  
-- [**Content Management APIs**](https://github.com/DevEsraaMahmoud/laravel-content-management-APIs) — API-first CMS with HRM modules & notifications.
-
----
-
 ## 📊 GitHub Stats
 
 <p align="center">
