@@ -20,7 +20,7 @@ jobs:
           filename: github-metrics.svg
           # لو كان بيعمل Rate limit، استخدمي PAT بدل GITHUB_TOKEN:
           # token: ${{ secrets.METRICS_TOKEN }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKENS }}
 
           # أقسام أساسية مستقرة
           base: header, activity, community, repositories
