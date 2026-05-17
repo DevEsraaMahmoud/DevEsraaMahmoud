@@ -89,6 +89,41 @@ I specialize in building scalable, production-ready systems using Laravel and mo
 ## 🔹 Payment Integration Demo
 
 Production-style payment processing system with secure webhook handling, transaction verification, retry-safe flows, and asynchronous processing.
+# 🔹 Payment Integration Demo
+
+Production-style payment processing system with secure webhook handling, transaction verification, retry-safe flows, and asynchronous processing.
+
+![Laravel](https://img.shields.io/badge/Laravel-11-red)
+
+![PHP](https://img.shields.io/badge/PHP-8.3-blue)
+
+![Redis](https://img.shields.io/badge/Redis-Queues-red)
+
+![Architecture](https://img.shields.io/badge/Architecture-Event--Driven-black)
+
+## ⚡ CI Status
+
+![Tests](https://github.com/DevEsraaMahmoud/payment-integration-demo/actions/workflows/tests.yml/badge.svg)
+
+## 🧱 Architecture
+
+```mermaid
+
+flowchart TD
+
+A[Client Checkout] --> B[Laravel API]
+
+B --> C[Payment Service]
+
+C --> D[Payment Gateway]
+
+D --> E[Webhook Handler]
+
+E --> F[Redis Queue]
+
+F --> G[Transaction Verification]
+
+G --> H[Database]
 
 ### ⚡ Highlights
 - Idempotent payment processing
