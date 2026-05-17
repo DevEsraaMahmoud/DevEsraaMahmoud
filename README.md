@@ -78,6 +78,62 @@ I specialize in building scalable, production-ready systems using Laravel and mo
 
 ---
 
+### 🔹 Laravel Million Users
+
+High-performance system for 1M+ records with optimized search and batch processing.
+
+![Laravel](https://img.shields.io/badge/Laravel-red)
+![MySQL](https://img.shields.io/badge/MySQL-FULLTEXT-black)
+![Redis](https://img.shields.io/badge/Redis-Cache-red)
+
+#### 🧱 Architecture
+
+```mermaid
+flowchart TD
+    subgraph Client
+        A[API / Web Client]
+    end
+
+    subgraph App["Laravel Application"]
+        B[Search Controller]
+        C{Cache Layer}
+        D[Query Optimizer]
+        E[Queue Dispatcher]
+    end
+
+    subgraph Workers
+        F[Batch Import Job]
+        G[Index / Aggregate Job]
+    end
+
+    subgraph Data
+        H[(Redis Cache)]
+        I[(MySQL — 1M+ rows)]
+        J[FULLTEXT Index]
+    end
+
+    A --> B
+    B --> C
+    C -->|miss| D
+    C -->|hit| H
+    D --> J
+    J --> I
+    D --> H
+    B --> E --> F
+    F --> I
+    E --> G --> J
+```
+
+#### ⚡ Highlights
+- MySQL FULLTEXT search at scale
+- Redis caching for hot queries
+- Queue-based batch imports & indexing
+- EXPLAIN-driven query optimization
+
+🔗 https://github.com/DevEsraaMahmoud/laravel-million-users
+
+---
+
 ### 🔹 Payment Integration Demo
 
 Production-style payment processing with secure webhooks, idempotent flows, and async verification.
@@ -186,61 +242,6 @@ flowchart TB
 
 ---
 
-### 🔹 Laravel Million Users
-
-High-performance system for 1M+ records with optimized search and batch processing.
-
-![Laravel](https://img.shields.io/badge/Laravel-red)
-![MySQL](https://img.shields.io/badge/MySQL-FULLTEXT-black)
-![Redis](https://img.shields.io/badge/Redis-Cache-red)
-
-#### 🧱 Architecture
-
-```mermaid
-flowchart TD
-    subgraph Client
-        A[API / Web Client]
-    end
-
-    subgraph App["Laravel Application"]
-        B[Search Controller]
-        C{Cache Layer}
-        D[Query Optimizer]
-        E[Queue Dispatcher]
-    end
-
-    subgraph Workers
-        F[Batch Import Job]
-        G[Index / Aggregate Job]
-    end
-
-    subgraph Data
-        H[(Redis Cache)]
-        I[(MySQL — 1M+ rows)]
-        J[FULLTEXT Index]
-    end
-
-    A --> B
-    B --> C
-    C -->|miss| D
-    C -->|hit| H
-    D --> J
-    J --> I
-    D --> H
-    B --> E --> F
-    F --> I
-    E --> G --> J
-```
-
-#### ⚡ Highlights
-- MySQL FULLTEXT search at scale
-- Redis caching for hot queries
-- Queue-based batch imports & indexing
-- EXPLAIN-driven query optimization
-
-🔗 https://github.com/DevEsraaMahmoud/laravel-million-users
-
----
 
 ## 🧠 How I Think
 
