@@ -9,6 +9,16 @@ I specialize in building scalable, production-ready systems using Laravel and mo
 
 ---
 
+## ⚡ CI / Workflow Status
+
+![Laravel Tests](https://github.com/DevEsraaMahmoud/payment-integration-demo/actions/workflows/tests.yml/badge.svg)
+
+![Code Quality](https://github.com/DevEsraaMahmoud/payment-integration-demo/actions/workflows/phpstan.yml/badge.svg)
+
+![Deploy](https://github.com/DevEsraaMahmoud/PingMe/actions/workflows/deploy.yml/badge.svg)
+
+---
+
 ## 🔥 Contribution Streak
 
 <p align="center">
