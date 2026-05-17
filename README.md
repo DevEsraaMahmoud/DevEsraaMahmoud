@@ -5,7 +5,31 @@
 # Hi, I'm Esraa 👋
 
 Senior Full-Stack Engineer with a strong backend and product mindset.  
-I specialize in building scalable, production-ready systems using Laravel and modern web technologies.
+I build scalable, production-ready systems with **Laravel** and modern web stacks.
+
+## 🔧 Tech Focus
+
+<p>
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+</p>
+
+| Area | Focus |
+|:-----|:------|
+| **Backend** | Laravel · REST APIs · event-driven systems |
+| **Data** | MySQL · indexing & optimization |
+| **Performance** | Redis · queues · async processing |
+| **Integrations** | Payments · webhooks · B2B APIs |
+| **Frontend** | Vue · Inertia · Livewire |
+| **Infra** | Docker · Nginx · CI/CD |
+
+## ⚙ Engineering Interests
+
+`System Design` `Scalability` `Distributed Systems` `Queues & Async` `Backend Architecture` `Performance` `Testing` `CI/CD`
 
 ---
 
@@ -22,49 +46,6 @@ I specialize in building scalable, production-ready systems using Laravel and mo
     src="https://streak-stats.demolab.com?user=DevEsraaMahmoud&theme=tokyonight&hide_border=true" 
   />
 </p>
-
----
-
-## 🛠 Workflow & Tooling
-
-<p>
-  <img src="https://img.shields.io/badge/Laravel-red?style=for-the-badge&logo=laravel&logoColor=white"/>
-  
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-  
-  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D"/>
-  
-  <img src="https://img.shields.io/badge/MySQL-black?style=for-the-badge&logo=mysql"/>
-  
-  <img src="https://img.shields.io/badge/Redis-red?style=for-the-badge&logo=redis&logoColor=white"/>
-  
-  <img src="https://img.shields.io/badge/Docker-black?style=for-the-badge&logo=docker"/>
-  
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/>
-</p>
-
----
-
-## 🔧 Tech Focus
-
-- Backend: **PHP (Laravel), REST APIs, Event-driven systems**
-- Databases: **MySQL (indexing, EXPLAIN, optimization)**
-- Performance: **Redis caching, queues, async processing**
-- Integrations: **Payments, webhooks, B2B APIs**
-- Frontend: **Vue.js, Inertia.js, Livewire**
-- Infrastructure: **Docker, Nginx, CI/CD basics**
-
----
-
-## ⚙ Engineering Interests
-
-- System Design & Scalability
-- Performance Optimization
-- Distributed Systems Concepts
-- Queues & Async Workflows
-- Backend Architecture
-- Testing & Debugging
-- CI/CD Automation
 
 ---
 
