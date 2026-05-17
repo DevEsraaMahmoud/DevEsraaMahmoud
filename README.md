@@ -75,114 +75,168 @@ I specialize in building scalable, production-ready systems using Laravel and mo
 ---
 
 ## 🚀 Featured Projects
-## ⚡ Engineering Workflow
 
-![Laravel CI](https://github.com/DevEsraaMahmoud/payment-integration-demo/actions/workflows/phpstan.yml/badge.svg)
-
-![PingMe Tests](https://github.com/DevEsraaMahmoud/payment-integration-demo/actions/workflows/tests.yml/badge.svg)
-
-![Code Style](https://img.shields.io/badge/code%20style-Pint-blue)
-
-![Coverage](https://img.shields.io/badge/tests-passing-brightgreen)
 ---
 
-## 🔹 Payment Integration Demo
+### 🔹 Payment Integration Demo
 
-Production-style payment processing system with secure webhook handling, transaction verification, retry-safe flows, and asynchronous processing.
-# 🔹 Payment Integration Demo
-
-Production-style payment processing system with secure webhook handling, transaction verification, retry-safe flows, and asynchronous processing.
+Production-style payment processing with secure webhooks, idempotent flows, and async verification.
 
 ![Laravel](https://img.shields.io/badge/Laravel-11-red)
-
 ![PHP](https://img.shields.io/badge/PHP-8.3-blue)
-
 ![Redis](https://img.shields.io/badge/Redis-Queues-red)
-
-![Architecture](https://img.shields.io/badge/Architecture-Event--Driven-black)
-
-## ⚡ CI Status
-
 ![Tests](https://github.com/DevEsraaMahmoud/payment-integration-demo/actions/workflows/tests.yml/badge.svg)
 
-## 🧱 Architecture
+#### 🧱 Architecture
 
 ```mermaid
+flowchart LR
+    subgraph Client
+        A[Checkout / Client App]
+    end
 
-flowchart TD
+    subgraph Backend["Laravel API"]
+        B[Payment Controller]
+        C[Payment Service]
+        D[Gateway Abstraction]
+        E[Webhook Handler]
+        F[Idempotency Layer]
+    end
 
-A[Client Checkout] --> B[Laravel API]
+    subgraph External
+        G[(Stripe / PayMob)]
+    end
 
-B --> C[Payment Service]
+    subgraph Async
+        H[(Redis Queue)]
+        I[Verify Payment Job]
+    end
 
-C --> D[Payment Gateway]
+    subgraph Storage
+        J[(MySQL)]
+    end
 
-D --> E[Webhook Handler]
+    A --> B --> C --> D --> G
+    G -->|Webhook| E
+    E --> F --> H --> I --> J
+    C --> J
+```
 
-E --> F[Redis Queue]
-
-F --> G[Transaction Verification]
-
-G --> H[Database]
-
-### ⚡ Highlights
+#### ⚡ Highlights
 - Idempotent payment processing
 - Secure webhook validation
-- Retry-safe architecture
-- Queue-based async handling
-- Failure recovery scenarios
-- Transaction logging & monitoring
+- Retry-safe queue-based verification
+- Transaction logging & failure recovery
 
-### 🧱 Engineering Focus
-- Event-driven workflows
-- Service-layer architecture
-- Redis queues
-- Payment gateway abstraction
-- API reliability patterns
+🔗 https://github.com/DevEsraaMahmoud/payment-integration-demo
 
-### 🛠 Stack
-Laravel • Redis • MySQL • Stripe • PayMob • Queues • Webhooks
-
-### ⚙ Status
-![Tests](https://github.com/DevEsraaMahmoud/payment-integration-demo/actions/workflows/tests.yml/badge.svg)
-
-🔗 Repo:
-https://github.com/DevEsraaMahmoud/payment-integration-demo
 ---
 
-## 🔹 PingMe — Real-Time Communication
+### 🔹 PingMe — Real-Time Communication
 
-Real-time communication platform supporting instant messaging, presence tracking, typing indicators, and event broadcasting.
+Real-time messaging with presence, typing indicators, and event broadcasting.
 
-### ⚡ Highlights
-- Real-time WebSocket communication
-- Presence & online tracking
-- Typing indicators
-- Event broadcasting
-- Redis pub/sub architecture
-- Scalable realtime backend
-
-### 🧱 Engineering Focus
-- WebSocket infrastructure
-- Event-driven systems
-- Redis scaling patterns
-- Frontend/backend synchronization
-
-### 🛠 Stack
-Laravel Reverb • Vue 3 • Redis • WebSockets • Inertia.js
-
-### ⚙ Status
+![Laravel Reverb](https://img.shields.io/badge/Laravel-Reverb-red)
+![Vue](https://img.shields.io/badge/Vue-3-4FC08D)
+![Redis](https://img.shields.io/badge/Redis-PubSub-red)
 ![Tests](https://github.com/DevEsraaMahmoud/PingMe/actions/workflows/tests.yml/badge.svg)
 
-🔗 Repo:
-https://github.com/DevEsraaMahmoud/PingMe
+#### 🧱 Architecture
+
+```mermaid
+flowchart TB
+    subgraph Frontend["Vue 3 + Inertia"]
+        A[Chat UI]
+        B[Presence / Typing State]
+    end
+
+    subgraph Realtime["Laravel Reverb"]
+        C[WebSocket Server]
+        D[Channel Authorization]
+    end
+
+    subgraph Backend["Laravel Backend"]
+        E[Message API]
+        F[Broadcast Events]
+        G[Presence Service]
+    end
+
+    subgraph Infra
+        H[(Redis Pub/Sub)]
+        I[(MySQL)]
+    end
+
+    A <-->|WebSocket| C
+    B <-->|WebSocket| C
+    C --> D
+    E --> F --> H
+    H --> C
+    E --> I
+    G --> H
+    A -->|HTTP| E
+```
+
+#### ⚡ Highlights
+- WebSocket real-time messaging
+- Presence & typing indicators
+- Redis pub/sub for horizontal scaling
+- Event-driven broadcast pipeline
+
+🔗 https://github.com/DevEsraaMahmoud/PingMe
+
 ---
 
 ### 🔹 Laravel Million Users
 
-High-performance system handling 1M+ records with fast search and scalable data processing.
+High-performance system for 1M+ records with optimized search and batch processing.
 
-**Tech:** Laravel, MySQL FULLTEXT, Redis, Queues
+![Laravel](https://img.shields.io/badge/Laravel-red)
+![MySQL](https://img.shields.io/badge/MySQL-FULLTEXT-black)
+![Redis](https://img.shields.io/badge/Redis-Cache-red)
+
+#### 🧱 Architecture
+
+```mermaid
+flowchart TD
+    subgraph Client
+        A[API / Web Client]
+    end
+
+    subgraph App["Laravel Application"]
+        B[Search Controller]
+        C{Cache Layer}
+        D[Query Optimizer]
+        E[Queue Dispatcher]
+    end
+
+    subgraph Workers
+        F[Batch Import Job]
+        G[Index / Aggregate Job]
+    end
+
+    subgraph Data
+        H[(Redis Cache)]
+        I[(MySQL — 1M+ rows)]
+        J[FULLTEXT Index]
+    end
+
+    A --> B
+    B --> C
+    C -->|miss| D
+    C -->|hit| H
+    D --> J
+    J --> I
+    D --> H
+    B --> E --> F
+    F --> I
+    E --> G --> J
+```
+
+#### ⚡ Highlights
+- MySQL FULLTEXT search at scale
+- Redis caching for hot queries
+- Queue-based batch imports & indexing
+- EXPLAIN-driven query optimization
 
 🔗 https://github.com/DevEsraaMahmoud/laravel-million-users
 
