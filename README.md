@@ -7,15 +7,6 @@
 Senior Full-Stack Engineer with a strong backend and product mindset.  
 I specialize in building scalable, production-ready systems using Laravel and modern web technologies.
 
-## ⚡ Engineering Workflow
-
-![Laravel CI](https://github.com/DevEsraaMahmoud/payment-integration-demo/actions/workflows/laravel.yml/badge.svg)
-
-![PingMe Tests](https://github.com/DevEsraaMahmoud/payment-integration-demo/actions/workflows/tests.yml/badge.svg)
-
-![Code Style](https://img.shields.io/badge/code%20style-Pint-blue)
-
-![Coverage](https://img.shields.io/badge/tests-passing-brightgreen)
 ---
 
 ## 🔥 Contribution Streak
@@ -78,6 +69,16 @@ I specialize in building scalable, production-ready systems using Laravel and mo
 ---
 
 ## 🚀 Featured Projects
+## ⚡ Engineering Workflow
+
+![Laravel CI](https://github.com/DevEsraaMahmoud/payment-integration-demo/actions/workflows/laravel.yml/badge.svg)
+
+![PingMe Tests](https://github.com/DevEsraaMahmoud/payment-integration-demo/actions/workflows/tests.yml/badge.svg)
+
+![Code Style](https://img.shields.io/badge/code%20style-Pint-blue)
+
+![Coverage](https://img.shields.io/badge/tests-passing-brightgreen)
+---
 
 ### 🔹 Payment Integration Demo
 
