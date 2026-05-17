@@ -86,24 +86,61 @@ I specialize in building scalable, production-ready systems using Laravel and mo
 ![Coverage](https://img.shields.io/badge/tests-passing-brightgreen)
 ---
 
-### 🔹 Payment Integration Demo
+## 🔹 Payment Integration Demo
 
-Secure payment flows with webhook handling, idempotent processing, and transaction verification.
+Production-style payment processing system with secure webhook handling, transaction verification, retry-safe flows, and asynchronous processing.
 
-**Tech:** Laravel, Stripe, PayMob, Webhooks
+### ⚡ Highlights
+- Idempotent payment processing
+- Secure webhook validation
+- Retry-safe architecture
+- Queue-based async handling
+- Failure recovery scenarios
+- Transaction logging & monitoring
 
-🔗 https://github.com/DevEsraaMahmoud/payment-integration-demo
+### 🧱 Engineering Focus
+- Event-driven workflows
+- Service-layer architecture
+- Redis queues
+- Payment gateway abstraction
+- API reliability patterns
 
+### 🛠 Stack
+Laravel • Redis • MySQL • Stripe • PayMob • Queues • Webhooks
+
+### ⚙ Status
+![Tests](https://github.com/DevEsraaMahmoud/payment-integration-demo/actions/workflows/tests.yml/badge.svg)
+
+🔗 Repo:
+https://github.com/DevEsraaMahmoud/payment-integration-demo
 ---
 
-### 🔹 PingMe — Real-Time Communication
+## 🔹 PingMe — Real-Time Communication
 
-Real-time messaging system using WebSockets with presence, typing indicators, and event-driven backend.
+Real-time communication platform supporting instant messaging, presence tracking, typing indicators, and event broadcasting.
 
-**Tech:** Laravel Reverb, Vue 3, Redis
+### ⚡ Highlights
+- Real-time WebSocket communication
+- Presence & online tracking
+- Typing indicators
+- Event broadcasting
+- Redis pub/sub architecture
+- Scalable realtime backend
 
-🔗 https://github.com/DevEsraaMahmoud/PingMe
+### 🧱 Engineering Focus
+- WebSocket infrastructure
+- Event-driven systems
+- Redis scaling patterns
+- Frontend/backend synchronization
 
+### 🛠 Stack
+Laravel Reverb • Vue 3 • Redis • WebSockets • Inertia.js
+
+### ⚙ Status
+![Tests](https://github.com/DevEsraaMahmoud/PingMe/actions/workflows/tests.yml/badge.svg)
+
+🔗 Repo:
+https://github.com/DevEsraaMahmoud/PingMe
 ---
 
 ### 🔹 Laravel Million Users
