@@ -71,7 +71,7 @@ I specialize in building scalable, production-ready systems using Laravel and mo
 ## 🚀 Featured Projects
 ## ⚡ Engineering Workflow
 
-![Laravel CI](https://github.com/DevEsraaMahmoud/payment-integration-demo/actions/workflows/laravel.yml/badge.svg)
+![Laravel CI](https://github.com/DevEsraaMahmoud/payment-integration-demo/actions/workflows/phpstan.yml/badge.svg)
 
 ![PingMe Tests](https://github.com/DevEsraaMahmoud/payment-integration-demo/actions/workflows/tests.yml/badge.svg)
 
