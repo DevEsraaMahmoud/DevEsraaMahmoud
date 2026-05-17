@@ -10,26 +10,37 @@ I build scalable, production-ready systems with **Laravel** and modern web stack
 ## 🔧 Tech Focus
 
 <p>
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Backend-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/REST-API-512BD4?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Event--driven-181717?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Data-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Indexing%20%26%20Optimization-2E7D32?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Performance-Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Queues-FF6F00?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Async-Processing-5C6BC0?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Payments-00897B?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Webhooks-6A1B9A?style=flat-square"/>
+  <img src="https://img.shields.io/badge/B2B-APIs-1565C0?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Frontend-Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Inertia-9553E9?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Livewire-FB70A9?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Infra-Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
 </p>
-
-| Area | Focus |
-|:-----|:------|
-| **Backend** | Laravel · REST APIs · event-driven systems |
-| **Data** | MySQL · indexing & optimization |
-| **Performance** | Redis · queues · async processing |
-| **Integrations** | Payments · webhooks · B2B APIs |
-| **Frontend** | Vue · Inertia · Livewire |
-| **Infra** | Docker · Nginx · CI/CD |
 
 ## ⚙ Engineering Interests
 
-`System Design` `Scalability` `Distributed Systems` `Queues & Async` `Backend Architecture` `Performance` `Testing` `CI/CD`
+<p>
+  <img src="https://img.shields.io/badge/System%20Design-181717?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Scalability-0D47A1?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Distributed%20Systems-4A148C?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Queues%20%26%20Async-FF6F00?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Backend%20Architecture-37474F?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Performance-C62828?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Testing-2E7D32?style=flat-square"/>
+  <img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
+</p>
 
 ---
 
