@@ -9,14 +9,6 @@ I specialize in building scalable, production-ready systems using Laravel and mo
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=DevEsraaMahmoud&show_icons=true&theme=tokyonight" />
-</p>
-
----
-
 ## 🔥 Contribution Streak
 
 <p align="center">
