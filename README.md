@@ -8,6 +8,10 @@ Senior Full-Stack Engineer with a strong backend and product mindset.
 I specialize in building scalable, production-ready systems using Laravel and modern web technologies.
 
 ---
+## 📈 GitHub Metrics
+
+![Metrics](./github-metrics.svg)
+---
 
 ## 🔥 Contribution Streak
 
