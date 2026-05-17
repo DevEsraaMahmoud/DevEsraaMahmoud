@@ -7,7 +7,57 @@
 Senior Full-Stack Engineer with a strong backend and product mindset.  
 I specialize in building scalable, production-ready systems using Laravel and modern web technologies.
 
-I enjoy working on system design, performance optimization, and real-world integrations — focusing on clarity, maintainability, and long-term growth rather than over-engineering.
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=DevEsraaMahmoud&show_icons=true&theme=tokyonight&hide_border=true" 
+    height="170"
+  />
+
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevEsraaMahmoud&layout=compact&theme=tokyonight&hide_border=true" 
+    height="170"
+  />
+</p>
+
+---
+
+## 🔥 Contribution Streak
+
+<p align="center">
+  <img 
+    src="https://streak-stats.demolab.com?user=DevEsraaMahmoud&theme=tokyonight&hide_border=true" 
+  />
+</p>
+
+---
+
+## 📈 Activity Graph
+
+[![Esraa's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=DevEsraaMahmoud&theme=tokyo-night)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+---
+
+## 🛠 Workflow & Tooling
+
+<p>
+  <img src="https://img.shields.io/badge/Laravel-red?style=for-the-badge&logo=laravel&logoColor=white"/>
+  
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+  
+  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D"/>
+  
+  <img src="https://img.shields.io/badge/MySQL-black?style=for-the-badge&logo=mysql"/>
+  
+  <img src="https://img.shields.io/badge/Redis-red?style=for-the-badge&logo=redis&logoColor=white"/>
+  
+  <img src="https://img.shields.io/badge/Docker-black?style=for-the-badge&logo=docker"/>
+  
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/>
+</p>
 
 ---
 
@@ -72,58 +122,6 @@ High-performance system handling 1M+ records with fast search and scalable data 
 - Prefer **simple architectures** that can evolve
 - Measure before optimizing
 - Care about trade-offs and real business impact
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img 
-    src="https://github-readme-stats.vercel.app/api?username=DevEsraaMahmoud&show_icons=true&theme=tokyonight&hide_border=true" 
-    height="170"
-  />
-
-  <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevEsraaMahmoud&layout=compact&theme=tokyonight&hide_border=true" 
-    height="170"
-  />
-</p>
-
----
-
-## 🔥 Contribution Streak
-
-<p align="center">
-  <img 
-    src="https://streak-stats.demolab.com?user=DevEsraaMahmoud&theme=tokyonight&hide_border=true" 
-  />
-</p>
-
----
-
-## 🛠 Workflow & Tooling
-
-<p>
-  <img src="https://img.shields.io/badge/Laravel-red?style=for-the-badge&logo=laravel&logoColor=white"/>
-  
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-  
-  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D"/>
-  
-  <img src="https://img.shields.io/badge/MySQL-black?style=for-the-badge&logo=mysql"/>
-  
-  <img src="https://img.shields.io/badge/Redis-red?style=for-the-badge&logo=redis&logoColor=white"/>
-  
-  <img src="https://img.shields.io/badge/Docker-black?style=for-the-badge&logo=docker"/>
-  
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/>
-</p>
-
----
-
-## 📈 Activity Graph
-
-[![Esraa's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=DevEsraaMahmoud&theme=tokyo-night)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ---
 
